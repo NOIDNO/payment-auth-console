@@ -1,0 +1,23 @@
+{
+  "payments": [
+    { "id": 1, "authNo": "AU20260701001", "requestedAt": "2026-07-01 09:12:03", "merchant": "쿠팡", "method": "문자인증(SMS)", "cardType": "BC바로카드", "cardNoMasked": "1234-5678-****-9012", "customerName": "김민준", "customerNameMasked": "김*준", "amount": 128000, "status": "성공", "failReason": null, "elapsedMs": 4200 },
+    { "id": 2, "authNo": "AU20260701002", "requestedAt": "2026-07-01 09:20:41", "merchant": "스타벅스코리아", "method": "앱푸시인증", "cardType": "BC플래티넘", "cardNoMasked": "4321-8765-****-2109", "customerName": "이서연", "customerNameMasked": "이*연", "amount": 8500, "status": "성공", "failReason": null, "elapsedMs": 2100 },
+    { "id": 3, "authNo": "AU20260701003", "requestedAt": "2026-07-01 10:03:15", "merchant": "올리브영", "method": "ARS인증", "cardType": "BC스마트카드", "cardNoMasked": "5555-4444-****-3333", "customerName": "박도윤", "customerNameMasked": "박*윤", "amount": 45000, "status": "실패", "failReason": "인증시간 초과", "elapsedMs": 34000 },
+    { "id": 4, "authNo": "AU20260701004", "requestedAt": "2026-07-01 11:45:22", "merchant": "배달의민족", "method": "생체인증(지문)", "cardType": "BC마이비카드", "cardNoMasked": "9999-8888-****-7777", "customerName": "최지우", "customerNameMasked": "최*우", "amount": 23000, "status": "성공", "failReason": null, "elapsedMs": 1800 },
+    { "id": 5, "authNo": "AU20260701005", "requestedAt": "2026-07-01 13:10:07", "merchant": "무신사", "method": "패턴인증", "cardType": "BC바로카드", "cardNoMasked": "1111-2222-****-3344", "customerName": "정하은", "customerNameMasked": "정*은", "amount": 89000, "status": "진행중", "failReason": null, "elapsedMs": null },
+    { "id": 6, "authNo": "AU20260630006", "requestedAt": "2026-06-30 16:32:51", "merchant": "야놀자", "method": "문자인증(SMS)", "cardType": "BC플래티넘", "cardNoMasked": "6543-2109-****-8765", "customerName": "강예준", "customerNameMasked": "강*준", "amount": 156000, "status": "성공", "failReason": null, "elapsedMs": 3600 },
+    { "id": 7, "authNo": "AU20260630007", "requestedAt": "2026-06-30 18:05:33", "merchant": "컬리", "method": "ARS인증", "cardType": "BC스마트카드", "cardNoMasked": "7777-6666-****-5555", "customerName": "조수아", "customerNameMasked": "조*아", "amount": 67000, "status": "만료", "failReason": null, "elapsedMs": null },
+    { "id": 8, "authNo": "AU20260630008", "requestedAt": "2026-06-30 20:15:09", "merchant": "넷플릭스", "method": "앱푸시인증", "cardType": "BC마이비카드", "cardNoMasked": "3333-4444-****-5566", "customerName": "윤지호", "customerNameMasked": "윤*호", "amount": 17000, "status": "실패", "failReason": "고객 취소", "elapsedMs": 5200 },
+    { "id": 9, "authNo": "AU20260629009", "requestedAt": "2026-06-29 08:40:18", "merchant": "CGV", "method": "생체인증(지문)", "cardType": "BC바로카드", "cardNoMasked": "2468-1357-****-9081", "customerName": "장유진", "customerNameMasked": "장*진", "amount": 32000, "status": "성공", "failReason": null, "elapsedMs": 2900 },
+    { "id": 10, "authNo": "AU20260629010", "requestedAt": "2026-06-29 14:22:47", "merchant": "교보문고", "method": "패턴인증", "cardType": "BC플래티넘", "cardNoMasked": "1357-2468-****-6420", "customerName": "임시우", "customerNameMasked": "임*우", "amount": 54000, "status": "성공", "failReason": null, "elapsedMs": 3100 }
+  ],
+  "dailyStats": [
+    { "date": "6/25", "성공": 3, "실패": 1, "진행중": 0, "만료": 0 },
+    { "date": "6/26", "성공": 2, "실패": 0, "진행중": 0, "만료": 1 },
+    { "date": "6/27", "성공": 4, "실패": 1, "진행중": 0, "만료": 0 },
+    { "date": "6/28", "성공": 1, "실패": 0, "진행중": 1, "만료": 0 },
+    { "date": "6/29", "성공": 2, "실패": 0, "진행중": 0, "만료": 0 },
+    { "date": "6/30", "성공": 2, "실패": 1, "진행중": 0, "만료": 1 },
+    { "date": "7/1", "성공": 3, "실패": 1, "진행중": 1, "만료": 0 }
+  ]
+}

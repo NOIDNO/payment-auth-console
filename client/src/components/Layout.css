@@ -1,0 +1,84 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  height: 60px;
+  background: #0e1f3c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.app-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.app-header__brand-mark {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: #2f6fed;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 13px;
+}
+.app-header__right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.app-header__user {
+  font-size: 13.5px;
+  color: #cddbf5;
+}
+.app-header__logout {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+.app-header__logout:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.app-body {
+  flex: 1;
+  display: flex;
+}
+.app-sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  background: #16294d;
+  padding: 16px 12px;
+}
+.app-sidebar__link {
+  display: block;
+  padding: 11px 14px;
+  border-radius: 6px;
+  color: #b7c4dd;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.app-sidebar__link:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+}
+.app-sidebar__link--active {
+  background: #2f6fed;
+  color: #fff;
+}
+
+.app-content {
+  flex: 1;
+  padding: 24px 28px;
+}
